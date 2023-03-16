@@ -1,0 +1,45 @@
+.our-products-body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(5deg);
+  }
+
+.card {
+      height: 75vmin;
+      position: relative; 
+}
+
+.card_label {
+        color: white;
+        background: black;
+        padding: 1em;
+        transform: rotate(-90deg);
+        transform-origin: 0% 0%;
+        transition: all 0.5s ease-in-out;
+        min-width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 1em;
+        white-space: nowrap;
+}
+
+img {
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+        transition: all 1s ease-in-out;
+        filter: grayscale(100);
+      }
+  

@@ -1,16 +1,12 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Zilla Slab', serif;
-font-family: 'Zilla Slab Highlight', cursive; */
-
-*,*::after,*,*::before {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
     background-color: white;
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 2rem auto 2rem;
 }
 
 a {
@@ -24,48 +20,39 @@ a {
     display: inline-block;
 } 
 
+ul {
+    list-style: none;
+}
+
 /* Navbar */
 
-section {
-    align-items: center;
-    gap: 2em;
-    padding: 1.5em 0;
-}
-
-.nav-row-container {
-    max-width: 90%;
-    margin: 0, auto;
-}
-
-.nav-row-container {
-    justify-content: space-between;
-    align-items: center;
+.row {
     display: flex;
+    align-items: center;
 }
 
-.nav-row-container ul {
-    padding: 0;
+header {
+justify-content: space-between;
+align-items: center;
+padding: .8rem;
 }
 
-img {
-    max-width: 100%;
+header ul {
+    gap: 2em;
 }
 
-li {
-    display: inline;
-  }
+.navigation {
+    flex-grow: 1;
+    align-items: center;
+}
 
+.primary-list {
+    margin: 0 auto;
+}
 
-section a {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: medium;
-    color: black;
-    text-decoration: none;
-
-    display: inline-block;
-} 
+.secondary-list {
+    margin: 0;
+}
 
 .nav-bottom-border {
     padding: 2rem;
@@ -75,15 +62,33 @@ section a {
 
 /* HERO SECTION */ 
 
-.hero-body-row-container {
+.hero-img {
+    max-width: 100%;
+}
+
+section {
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+section.container.hero.row {
     background-image: url(media/media_index/hero-section_IMG.jpg);
     background-repeat:no-repeat;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
-.hero-content {
-    margin-left: 100pt;
+/* BRAND SECTION */ 
+
+.brand-img {
+    max-width: 100%;
+}
+
+section.our-brand {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 1.5em 0;
 }
 
 /* H1 */
@@ -95,6 +100,13 @@ h1
     color: black;
 }
 
+.our-products h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 /* H2 */
 
 h2 {
@@ -104,8 +116,10 @@ h2 {
     color: black;
 }
 
-h2 .h2-left {
-    text-align: right;
+h2 .left-text {
+    display: flex;
+    justify-content: right;
+    align-content: right;
 }
 
 /* P1 */
@@ -122,6 +136,13 @@ p {
     font-weight: 700;
     font-size: 20pt;
     color: black;
+}
+
+.our-products p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .hero-content p {

@@ -23,7 +23,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 65%;
+}
+
+.profile-picture {
+    margin-right: 1.8rem;
 }
 
 input {
