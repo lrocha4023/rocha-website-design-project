@@ -1,12 +1,3 @@
-.our-products-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .accordion-container {
     display: flex;
     justify-content: center;
