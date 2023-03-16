@@ -1,0 +1,174 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif;
+font-family: 'Zilla Slab Highlight', cursive; */
+
+*,*::after,*,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+a {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+
+    display: inline-block;
+} 
+
+/* Navbar */
+
+section {
+    align-items: center;
+    gap: 2em;
+    padding: 1.5em 0;
+}
+
+.nav-row-container {
+    max-width: 90%;
+    margin: 0, auto;
+}
+
+.nav-row-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav-row-container ul {
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    display: inline;
+  }
+
+
+section a {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+
+    display: inline-block;
+} 
+
+.nav-bottom-border {
+    padding: 2rem;
+    background-color: black;
+}
+
+
+/* HERO SECTION */ 
+
+.hero-body-row-container {
+    background-image: url(media/media_index/hero-section_IMG.jpg);
+    background-repeat:no-repeat;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    margin-left: 100pt;
+}
+
+/* H1 */
+h1
+{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 700;
+    font-size: 50pt;
+    color: black;
+}
+
+/* H2 */
+
+h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 400;
+    font-size: 32pt;
+    color: black;
+}
+
+h2 .h2-left {
+    text-align: right;
+}
+
+/* P1 */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.p-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color: black;
+}
+
+.hero-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: grey;
+}
+
+/* P2 */
+
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.profile-info .p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: grey;
+}
+
+/* BUTTONS */
+
+.btn-fill {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 10pt;
+    background-color: black;
+    color: white;
+    padding: 12pt;
+}
+
+.btn-stroke {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10pt;
+    font-size: small;
+    color: black;
+    stroke-width: 1px;
+    stroke: black;
+}
+
+/* PAGE HEADERS */
+
+.secondary-page-header {
+
+}
