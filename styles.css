@@ -1,0 +1,178 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif;
+font-family: 'Zilla Slab Highlight', cursive; */
+
+/* Navbar */
+
+li {
+    display: inline;
+  }
+
+a {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+} 
+
+/* H1 */
+
+.h1-center {
+    text-align: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+}
+
+.h1-left {
+    text-align: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+}
+
+.h1-right {
+    text-align: right;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+}
+
+/* H2 */
+
+.h2-center {
+    text-align: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 400;
+    font-size: x-large;
+    color: white;
+}
+
+.h2-left {
+    text-align: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 400;
+    font-size: x-large;
+    color: white;
+}
+
+.h2-right {
+    text-align: right;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 400;
+    font-size: x-large;
+    color: white;
+}
+
+/* P1 */
+
+.p1-center {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.p1-left {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.p1-right {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+/* P2 */
+
+.p2-center {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.p2-left {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.p2-right {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+/* BUTTONS */
+
+.button-fill {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: small;
+    fill: black;
+    color: white;
+}
+
+.button-stroke {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: small;
+    color: black;
+}
+
+/* PAGE HEADERS */
+
+.secondary-page-header {
+
+}
+
+/* TABLE */
+
+.order-table {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table td, .order-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+.order-table th {
+  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-table tr:hover {
+    background-color: #ddd;
+}
